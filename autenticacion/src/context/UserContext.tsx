@@ -33,9 +33,9 @@ export function UserProvider({ children }: UserProviderProps) {
 
   // Estado global
   const [user] = useState<User>({
-    name: "Carlos",
-    role: "Administrador",
-    email: "carlos@gmail.com",
+    name: "Christopher",
+    role: "Estudiante",
+    email: "christopher@gmail.com",
     city: "Cochabamba",
     career: "Sistemas Informáticos",
     logged: true,
